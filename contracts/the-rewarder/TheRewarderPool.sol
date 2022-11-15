@@ -14,7 +14,7 @@ import "./AccountingToken.sol";
 contract TheRewarderPool {
 
     // Minimum duration of each round of rewards in seconds
-    uint256 private constant REWARDS_ROUND_MIN_DURATION = 5 days;
+    uint256 private constant REWARDS_ROUND_MIN_DURATION = 5 minutes;
 
     uint256 public lastSnapshotIdForRewards;
     uint256 public lastRecordedSnapshotTimestamp;
